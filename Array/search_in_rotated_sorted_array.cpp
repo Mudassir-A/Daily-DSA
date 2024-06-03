@@ -4,6 +4,10 @@ using namespace std;
 
 int search(int arr[], int tar, int si, int ei)
 {
+    // base case
+    if (si > ei)
+        return -1;
+
     int mid = si + (ei - si) / 2;
 
     // case: FOUND
