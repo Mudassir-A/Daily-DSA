@@ -19,9 +19,7 @@ int binToDec(string bin)
 int main()
 {
     string num;
-    cout << "Enter binary: ";
     cin >> num;
-
     cout << num << " in decimal is " << binToDec(num);
     return 0;
 }
