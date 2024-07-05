@@ -56,7 +56,6 @@ int singleNumber(vector<int> &nums)
 
 int main()
 {
-
     int n;
     cin >> n;
 
@@ -67,6 +66,5 @@ int main()
     }
 
     cout << singleNumber(arr);
-    return 0;
     return 0;
 }
